@@ -13,9 +13,9 @@ module.exports = {
     },
     mysql: {
         host: process.env.MYSQL_HOST || 'remotemysql.com',
-        user: process.env.MYSQL_USER || 'ThC7cLpmdU',
-        password: process.env.MYSQL_PASSWORD || 'Axch3RgOSZ',
-         database: process.env.MYSQL_DB || 'ThC7cLpmdU',
+        user: process.env.MYSQL_USER || '', //user que obtendras en remotemysql.com
+        password: process.env.MYSQL_PASSWORD || '', //contraseña que obtendras en remotemysql.com
+         database: process.env.MYSQL_DB || '', // nombre que obtendras en remotemysql.com
     },
 
     mysqlService: {
