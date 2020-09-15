@@ -1,0 +1,17 @@
+pm2
+pm2 start folder/name --name nombre_servicio
+pm2 logs
+pm2 status
+pm2 restart
+pm2 stop
+
+cache, una forma mas rapida de servir contenido que ya conocemos
+cuando trabajas con un cache podras
+acceder a un archivo o añadir un archivo
+Que la limpieza del cache es mejor si es automatica
+
+//Uso de cache 
+depende del proyecto que hagas, si sera un proyecto que tendra mucho trafico, y consultas a las base de datos
+sera mejor si utilizas cache, que en cambio estes consultando cada rato a la BD
+por otra parte el uso de cache, si es algo muy grande te tomara tiempo y se ira acomplejando,
+todo dependera del proyecto y sus necesidades 
