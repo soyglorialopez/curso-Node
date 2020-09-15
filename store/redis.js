@@ -1,9 +1,9 @@
 const redis = require('redis');
-
+const config = require('../config.js')
 const client = redis.createClient({
-    host: 'redis-16019.c240.us-east-1-3.ec2.cloud.redislabs.com',
-    port: 16019,
-    password: 'Tv1taiiY4vPCXZ0RZOg7JxXtfKq5XEEm',
+    config.cache.host,
+    config.cache.port,
+    config.cache.password,
 });
 
 function list(table){
