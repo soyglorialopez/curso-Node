@@ -17,7 +17,11 @@ module.exports = {
         password: process.env.MYSQL_PASSWORD || '', //contraseña que obtendras en remotemysql.com
          database: process.env.MYSQL_DB || '', // nombre que obtendras en remotemysql.com
     },
-
+    cache : {
+        host: '', //en la configuracion de tu cuenta de DB en redisLab obtendras el host (endpoit antes del :)
+         port: , //en la configuracion de tu cuenta de redisLab obtendras el port (endpoit despues del :)
+        password: '', //en la configuracion de tu cuenta de DB en redisLab obtendras el password
+    },
     mysqlService: {
         host: process.env.HOST || 'localhost',
         port: process.env.PORT || 3004
